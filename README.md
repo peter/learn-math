@@ -57,3 +57,16 @@ yarn add eslint-config-standard eslint-plugin-standard eslint-plugin-promise esl
 ```
 
 Replaced "eslint:recommended" with "standard" in package.json under eslintConfig.extends.
+
+### How this app was Prepared for Heroku Deployment
+
+```
+yarn add express
+```
+
+Added minimal `server.js` and scripts in package.json:
+
+```
+"start": "node server.js",
+"heroku-postbuild": "yarn build",
+```

@@ -70,3 +70,9 @@ Added minimal `server.js` and scripts in package.json:
 "start": "node server.js",
 "heroku-postbuild": "yarn build",
 ```
+
+Set NODE_ENV:
+
+```
+heroku config:set NODE_ENV=production
+```

@@ -38,18 +38,6 @@ Vue CLI v3.1.1:
 vue create learn-math
 ```
 
-Installed Vue Material:
-
-```
-yarn add vue-material
-```
-
-Added to index.html for Vue Material:
-
-```
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons">
-```
-
 Added [eslint standard](https://github.com/standard/eslint-config-standard):
 
 ```
